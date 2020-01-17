@@ -6,12 +6,12 @@ var sum = a + b;
 console.log(sum);
 alert(sum);
 if(a >= 10){
-    onesum();
+    oneSum();
 }else{
-    nonsum();
+    nonSum();
 }
-function onesum(res, litl,big,trash){
-}if(sum >= 30){
+function oneSum(res, litl,big,trash){
+if(sum >= 30){
     var res = sum / 15;
     console.log(res);
     alert(res);
@@ -28,11 +28,11 @@ function onesum(res, litl,big,trash){
     console.log(trash);
     alert(trash);
 }
-function nonsum(minus){
+function nonSum(minus){
     if(a < 10){
     var minus = b - a;
     console.log(minus);
     alert(minus);
 }
 }
-
+}
